@@ -1,7 +1,5 @@
 # Binary Search Implementations
 
-This repository contains C++ implementations of various binary search algorithms.
-
 ## Implementations
 
 * **Iterative Binary Search:** Finds the index of a target value in a sorted array using an iterative approach.
