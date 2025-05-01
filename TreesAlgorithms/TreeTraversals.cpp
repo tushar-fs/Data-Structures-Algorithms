@@ -17,6 +17,28 @@ void traverseInorder(TreeNode *root)
     traverseInorder(root->right);
 }
 
+void traverseIterativeInorder(TreeNode *root)
+{
+    if (root == nullptr)
+        return;
+
+    stack<TreeNode *> st;
+    st.push(root);
+    root = root->left;
+    while (!st.empty() || root != nullptr)
+    {
+        while (root != nullptr)
+        {
+            st.push(root);
+            root = root->left;
+        }
+        root = st.top();
+        st.pop();
+        cout << root->val << " ";
+        root = root->right;
+    }
+}
+
 /**
  * Preorder -> [root, left, right]
  */
@@ -34,19 +56,21 @@ void traversePreorderIterative(TreeNode *root)
     if (root == nullptr)
         return;
 
-    stack<TreeNode *> st;
     cout << root->val << " ";
+    stack<TreeNode *> st;
     st.push(root);
-    while (!st.empty())
+    TreeNode *curNode = root->left;
+    while (!st.empty() || curNode != nullptr)
     {
-        while (root->left)
+        while (curNode != nullptr)
         {
-            cout << root->left->val << " ";
-            st.push(root->left);
+            cout << curNode->val << " ";
+            st.push(curNode);
+            curNode = curNode->left;
         }
-        while (!st.empty())
-        {
-        }
+        curNode = st.top();
+        st.pop();
+        curNode = curNode->right;
     }
 }
 
@@ -60,6 +84,32 @@ void traversePostorder(TreeNode *root)
     traversePostorder(root->left);
     traversePostorder(root->right);
     cout << root->val << " ";
+}
+
+void iterativePostorder(TreeNode *root)
+{
+    if (root == nullptr)
+        return;
+
+    stack<TreeNode *> st1, st2;
+    st1.push(root);
+    while (!st1.empty())
+    {
+        TreeNode *curNode = st1.top();
+        st1.pop();
+        if (curNode->left)
+            st1.push(curNode->left);
+        if (curNode->right)
+            st1.push(curNode->right);
+        st2.push(curNode);
+    }
+
+    while (!st2.empty())
+    {
+        TreeNode *temp = st2.top();
+        cout << temp->val << " ";
+        st2.pop();
+    }
 }
 
 /*
@@ -95,14 +145,20 @@ int main()
 
     std::cout << "Inorder: ";
     traverseInorder(root);
+    cout << "\n";
+    traverseIterativeInorder(root);
     std::cout << std::endl;
 
     std::cout << "Preorder: ";
     traversePreorder(root); // Call the corrected preorder
+    cout << "\n";
+    traversePreorderIterative(root);
     std::cout << std::endl;
 
     std::cout << "Postorder: ";
     traversePostorder(root); // Call the corrected postorder
+    cout<<"\n";
+    iterativePostorder(root);
     std::cout << std::endl;
 
     std::cout << "BFS (Level Order): ";
