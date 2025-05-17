@@ -1,16 +1,20 @@
 #include <iostream>
-#include "include/BinaryTreeNode.h"
+#include "include/BinaryTreeNode.h";
 
 using namespace std;
+vector<int> pre;
+vector<int> in;
+vector<int> post;
 
-int getMaximumPathSum(TreeNode *root, int &maxSum) {
-    if(root == nullptr) return 0;
-
-    int leftPathSum = getMaximumPathSum(root->left, maxSum);
-    int rightPathSum = getMaximumPathSum(root->right, maxSum);
-    int curPathSum = root->val + leftPathSum + rightPathSum;
-    maxSum = max(maxSum, curPathSum);
-    return root->val + max(leftPathSum, rightPathSum);
+void dfsTraversal(TreeNode *root)
+{
+    if (root == nullptr)
+        return;
+    pre.push_back(root->val);
+    dfsTraversal(root->left);
+    in.push_back(root->val);
+    dfsTraversal(root->right);
+    post.push_back(root->val);
 }
 
 int main()
@@ -21,6 +25,9 @@ int main()
     root->left->left = new TreeNode(3); // Adding a couple more nodes for better traversal examples
     root->left->right = new TreeNode(7);
     root->right->right = new TreeNode(18);
+
+    dfsTraversal(root);
+
     // --- Memory Management ---
     // For this small, fixed tree, manually deleting the created nodes works.
     // For general tree destruction, you would need a more robust approach,
