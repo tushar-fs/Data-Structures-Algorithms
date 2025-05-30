@@ -49,5 +49,3 @@ This section covers algorithms related to binary trees, including traversals, vi
     * Boundary Traversal of a Binary Tree
 
 ---
-
-*This README was generated based on the file structure and names within the repository.*
