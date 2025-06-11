@@ -1,53 +1,34 @@
 #include <iostream>
-#include <map>
 #include "include/BinaryTreeNode.h";
 
 using namespace std;
 
-/**
- * Method1: Using DFS
- */
-void dfsRightView(TreeNode *root, vector<int> &rightView, int depth, int &maxDepth)
+int maxWidthOfBinaryTree(TreeNode *root)
 {
     if (root == nullptr)
-        return;
-    if (depth > maxDepth)
-    {
-        rightView.push_back(root->val);
-        maxDepth = depth;
-    }
-    dfsRightView(root->right, rightView, depth + 1, maxDepth);
-    dfsRightView(root->left, rightView, depth + 1, maxDepth);
-}
-
-/**
- * Method2: Using BFS
- */
-vector<int> rightViewOfBinaryTree(TreeNode *root)
-{
-    if (root == nullptr)
-        return;
-    vector<int> rightViewNodes;
-    queue<TreeNode *> q;
-    q.push(root);
-    int level = 0;
+        return 0;
+    int maxWidth = 0;
+    queue<pair<TreeNode *, int>> q;
+    q.push({root, 0}); // 0-based indexing
     while (!q.empty())
     {
         int sz = q.size();
+        int leftMostPos = q.front().second;
+        int rightMostPos = leftMostPos;
         for (int i = 0; i < sz; i++)
         {
-            TreeNode *cur = q.front();
+            TreeNode *cur = q.front().first;
+            int curPos = q.front().second;
+            rightMostPos = max(rightMostPos, curPos);
             q.pop();
-            if (i == 0)
-                rightViewNodes.push_back(cur->val);
-            if (cur->right)
-                q.push(cur->right);
             if (cur->left)
-                q.push(cur->left);
+                q.push({cur->left, 2 * curPos + 1});
+            if (cur->right)
+                q.push({cur->right, 2 * curPos + 2});
         }
-        level++;
+        maxWidth = max(maxWidth, rightMostPos - leftMostPos + 1);
     }
-    return rightViewNodes;
+    return maxWidth;
 }
 
 int main()
@@ -58,8 +39,6 @@ int main()
     root->left->left = new TreeNode(3); // Adding a couple more nodes for better traversal examples
     root->left->right = new TreeNode(7);
     root->right->right = new TreeNode(18);
-
-    vector<int> rightView = rightViewOfBinaryTree(root);
 
     // --- Memory Management ---
     // For this small, fixed tree, manually deleting the created nodes works.
