@@ -46,10 +46,52 @@ void printPGEandNGE(vector<int> &nums)
         cout << x << " ";
 }
 
+void printPGEIndexes(vector<int> &nums)
+{
+    int n = nums.size();
+
+    stack<int> st;
+    vector<int> pgeIndexes(n, -1);
+    for (int i = 0; i < n; i++)
+    {
+        while (!st.empty() && nums[st.top()] <= nums[i])
+        {
+            st.pop();
+        }
+        pgeIndexes[i] = !st.empty() ? st.top() : -1;
+        st.push(i);
+    }
+
+    for (int x : pgeIndexes)
+    {
+        cout << x << " ";
+    }
+}
+
+void printNGEIndexes(vector<int> &nums)
+{
+    int n = nums.size();
+
+    stack<int> st;
+    vector<int> ngeIndexes(n, -1);
+    for (int i = n - 1; i >= 0; i--)
+    {
+        while (!st.empty() && nums[i] <= nums[st.top()])
+        {
+            st.pop();
+        }
+        ngeIndexes[i] = !st.empty() ? st.top() : -1;
+        st.push(i);
+    }
+
+    for (int x : ngeIndexes)
+        cout << x << " ";
+}
+
 int main()
 {
-    vector<int> nums = {4, 5, 2, 10, 8};
-    printPGEandNGE(nums);
+    vector<int> nums = {4, 10, 5, 8, 20, 15, 3};
+    printPGEIndexes(nums);
     // Expected Output:
     // NGE: 5 10 10 -1 -1
     // PGE: -1 -1 5 -1 10
