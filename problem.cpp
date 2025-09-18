@@ -50,16 +50,19 @@ int getMaximumEarning(string &s, int k, int fixedPay, int bonus)
         }
     }
 
-    // Greedily fill smaller gaps first to get maximum bonus in earnings
     sort(typeAGap.begin(), typeAGap.end());
-
     for (int len : typeAGap)
     {
-        int useSlots = min(k, len);
-        totalEarning += (useSlots * fixedPay) + ((useSlots + 1) * bonus);
-        k -= useSlots;
-        if (k == 0)
-            break;
+        if (len <= k)
+        {
+            totalEarning += (len * fixedPay) + ((len + 1) * bonus);
+            k -= len;
+        }
+        else
+        {
+            totalEarning += (k * fixedPay) + (k * bonus);
+            k = 0;
+        }
     }
 
     if (k > 0)

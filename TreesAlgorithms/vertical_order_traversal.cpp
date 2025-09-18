@@ -14,7 +14,7 @@ vector<vector<int>> verticalTraversal(TreeNode *root)
     if (root == nullptr)
         return res;
     map<int, map<int, vector<int>>> mp; // can use multiset
-    queue<pair<TreeNode *, pair<int, int>>> q;
+    queue<pair<TreeNode*, pair<int, int>>> q;
     q.push({root, {0, 0}});
     while (!q.empty())
     {
