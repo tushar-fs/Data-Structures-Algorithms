@@ -1,0 +1,20 @@
+# IDE / Editor config
+.vscode/
+.idea/
+
+# Scratch / temp files
+input.txt
+output.txt
+code.cpp
+dp.cpp
+problem.cpp
+
+# Compiled binaries
+*.out
+*.o
+*.exe
+*.class
+
+# OS files
+.DS_Store
+Thumbs.db
