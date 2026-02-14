@@ -1,3 +1,10 @@
+/**
+ * Problem: Search in a Binary Search Tree (LC #700)
+ * Given the root of a BST and a target value, find the node with that value.
+ * Iterative approach leveraging BST property.
+ * Time Complexity: O(h)
+ * Space Complexity: O(1)
+ */
 #include <iostream>
 #include "../include/BinaryTreeNode.h"
 

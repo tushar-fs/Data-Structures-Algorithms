@@ -1,10 +1,12 @@
+/**
+ * Problem: Lower Bound
+ * Find the index of the first element in a sorted array that is
+ * greater than or equal to the target value.
+ * Time Complexity: O(log n)
+ * Space Complexity: O(1)
+ */
 #include "include/lower_bound.h"
 #include <iostream>
-
-/*
- Lower Bound -> Index of the first element that is equal
- to or greater than target
-*/
 int lowerBound(vector<int> &nums, int target)
 {
     int n = nums.size();

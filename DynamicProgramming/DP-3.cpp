@@ -1,9 +1,15 @@
+/**
+ * Problem: Frog Jump with K Steps
+ * A frog wants to climb from step 0 to step n-1. From any step, it can jump
+ * up to K steps. The cost of a jump is the absolute difference in heights.
+ * Find the minimum energy to reach the last step.
+ * Time Complexity: O(n * k)
+ * Space Complexity: O(n)
+ */
 #include <iostream>
 #include <vector>
 
 using namespace std;
-
-// Frog with K jumps
 
 int findMinimumEnergy(vector<int> &heights, int k)
 {

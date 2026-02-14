@@ -1,3 +1,10 @@
+/**
+ * Problem: Flatten Binary Tree to Linked List — Inorder
+ * Given the root of a binary tree, flatten it into a linked list following
+ * inorder traversal. Each node's right pointer points to the next inorder node.
+ * Time Complexity: O(n)
+ * Space Complexity: O(h) — recursion stack
+ */
 #include <iostream>
 #include "include/BinaryTreeNode.h"
 

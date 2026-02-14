@@ -1,3 +1,10 @@
+/**
+ * Problem: Bottom View of Binary Tree
+ * Given a binary tree, return the nodes visible when the tree is viewed from
+ * the bottom. Uses DFS with horizontal distance and depth tracking.
+ * Time Complexity: O(n)
+ * Space Complexity: O(n)
+ */
 #include <iostream>
 #include <map>
 #include "include/BinaryTreeNode.h";

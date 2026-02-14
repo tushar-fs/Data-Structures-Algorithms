@@ -1,3 +1,11 @@
+/**
+ * Problem: Rat in a Maze
+ * Given an n x m maze, find all paths from top-left (0,0) to bottom-right
+ * (n-1, m-1). The rat can move in 4 directions (D, L, R, U).
+ * Prints all valid paths using backtracking.
+ * Time Complexity: O(4^(n*m))
+ * Space Complexity: O(n * m) — visited matrix + recursion
+ */
 #include <iostream>
 
 using namespace std;

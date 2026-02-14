@@ -1,3 +1,10 @@
+/**
+ * Problem: Unbounded Knapsack
+ * Given items with weights and values and a bag capacity, find the maximum
+ * value achievable. Each item can be picked unlimited times.
+ * Time Complexity: O(n * W)
+ * Space Complexity: O(W)
+ */
 #include <iostream>
 
 using namespace std;

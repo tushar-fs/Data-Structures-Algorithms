@@ -1,3 +1,11 @@
+/**
+ * Problem: Rotting Oranges (LC #994)
+ * Given a grid where 2 = rotten orange, 1 = fresh orange, 0 = empty cell,
+ * find the minimum time for all oranges to rot. Uses multi-source BFS.
+ * Return -1 if not all oranges can rot.
+ * Time Complexity: O(n * m)
+ * Space Complexity: O(n * m)
+ */
 #include <iostream>
 
 using namespace std;

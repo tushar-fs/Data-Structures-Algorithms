@@ -1,3 +1,10 @@
+/**
+ * Problem: Vertical Order Traversal of Binary Tree (LC #987)
+ * Given a binary tree, return the vertical order traversal of its nodes' values.
+ * Nodes are ordered by column (left to right), then row (top to bottom).
+ * Time Complexity: O(n log n)
+ * Space Complexity: O(n)
+ */
 #include <iostream>
 #include <vector>
 #include <map>

@@ -1,3 +1,10 @@
+/**
+ * Problem: Palindrome Partitioning (LC #131)
+ * Given a string, partition it such that every substring is a palindrome.
+ * Return all possible palindrome partitions.
+ * Time Complexity: O(n * 2^n)
+ * Space Complexity: O(n) — recursion depth
+ */
 #include <iostream>
 
 using namespace std;

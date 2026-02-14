@@ -1,3 +1,10 @@
+/**
+ * Problem: Merge Sort
+ * Sort an array using the divide-and-conquer merge sort algorithm.
+ * Recursively splits the array, sorts halves, and merges them.
+ * Time Complexity: O(n log n)
+ * Space Complexity: O(n)
+ */
 #include <iostream>
 #include <vector>
 

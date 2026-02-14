@@ -1,3 +1,10 @@
+/**
+ * Problem: Boundary Traversal of Binary Tree
+ * Given a binary tree, return its boundary traversal in anti-clockwise direction:
+ * left boundary (top-down) → leaf nodes (left-right) → right boundary (bottom-up).
+ * Time Complexity: O(n)
+ * Space Complexity: O(h)
+ */
 #include <iostream>
 #include "include/BinaryTreeNode.h";
 

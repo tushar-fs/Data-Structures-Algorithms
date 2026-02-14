@@ -1,3 +1,10 @@
+/**
+ * Problem: Balanced Binary Tree (LC #110)
+ * Given a binary tree, determine if it is height-balanced. A tree is balanced
+ * if the depth of the two subtrees of every node never differs by more than one.
+ * Time Complexity: O(n)
+ * Space Complexity: O(h) — recursion stack
+ */
 #include <iostream>
 #include "include/BinaryTreeNode.h"
 

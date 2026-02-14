@@ -1,3 +1,10 @@
+/**
+ * Problem: Binary Search (Iterative)
+ * Given a sorted array and a target value, find the index of the target
+ * using iterative binary search.
+ * Time Complexity: O(log n)
+ * Space Complexity: O(1)
+ */
 #include "include/binary_search.h"
 #include <iostream> // for debugging purpose
 

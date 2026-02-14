@@ -1,3 +1,10 @@
+/**
+ * Problem: Binary Tree Traversals — Iterative Implementations
+ * Iterative inorder, preorder, postorder (two-stack), and BFS level-order
+ * traversals of a binary tree.
+ * Time Complexity: O(n) each
+ * Space Complexity: O(n)
+ */
 #include <iostream>
 #include <queue>
 #include <stack>

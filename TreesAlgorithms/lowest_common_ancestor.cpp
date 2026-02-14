@@ -1,3 +1,10 @@
+/**
+ * Problem: Lowest Common Ancestor of a Binary Tree (LC #236)
+ * Given a binary tree and two nodes p and q, find their lowest common ancestor.
+ * The LCA is the deepest node that is an ancestor of both p and q.
+ * Time Complexity: O(n)
+ * Space Complexity: O(h) — recursion stack
+ */
 #include <iostream>
 #include "include/BinaryTreeNode.h";
 

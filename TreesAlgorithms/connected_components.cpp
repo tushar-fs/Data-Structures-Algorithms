@@ -1,3 +1,10 @@
+/**
+ * Problem: Count Connected Components (Number of Islands)
+ * Given a binary tree with 0s and 1s, count the number of connected components
+ * (islands) of 1s. Uses DFS to "sink" visited islands.
+ * Time Complexity: O(n)
+ * Space Complexity: O(h) — recursion stack
+ */
 #include <iostream>
 #include <BinaryTreeNode.h>
 

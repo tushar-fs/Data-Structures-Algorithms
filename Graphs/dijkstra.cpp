@@ -1,3 +1,10 @@
+/**
+ * Problem: Dijkstra's Shortest Path Algorithm
+ * Find the shortest path from a source node to all other nodes in a weighted
+ * graph with non-negative edge weights. Uses a min-heap (priority queue).
+ * Time Complexity: O((V + E) * log V)
+ * Space Complexity: O(V + E)
+ */
 #include <iostream>
 #include <vector>
 

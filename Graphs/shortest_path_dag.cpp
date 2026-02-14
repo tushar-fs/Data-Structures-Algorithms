@@ -1,8 +1,14 @@
+/**
+ * Problem: Shortest Path in a Directed Acyclic Graph (DAG)
+ * Find shortest distance from source to destination in a weighted DAG.
+ * Uses topological sort followed by edge relaxation. Works with both
+ * negative and positive weights.
+ * Time Complexity: O(V + E)
+ * Space Complexity: O(V + E)
+ */
 #include <iostream>
 
 using namespace std;
-
-// finding shortest distance in DAG using Topological Sort, works on both negative & positive weights.
 int findShortestPath(vector<pair<int, int>> adj[], int V, int src, int dest)
 {
 

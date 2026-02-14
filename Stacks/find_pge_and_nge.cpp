@@ -1,3 +1,10 @@
+/**
+ * Problem: Previous Greater Element & Next Greater Element
+ * For each element in the array, find the nearest greater element to its left
+ * (PGE) and nearest greater element to its right (NGE) using monotonic stack.
+ * Time Complexity: O(n)
+ * Space Complexity: O(n)
+ */
 #include <iostream>
 #include <vector>
 #include <stack>

@@ -1,3 +1,10 @@
+/**
+ * Problem: Longest Univalue Path (LC #687)
+ * Find the length of the longest path in a binary tree where every node in
+ * the path has the same value. The path can go through the root.
+ * Time Complexity: O(n)
+ * Space Complexity: O(h) — recursion stack
+ */
 #include <iostream>
 #include "include/BinaryTreeNode.h"
 

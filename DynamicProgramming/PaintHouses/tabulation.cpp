@@ -1,3 +1,11 @@
+/**
+ * Problem: Ninja Training / Paint Houses — Tabulation (LC #256 variant)
+ * Given N days and 3 tasks with different points, maximize the total points
+ * such that you don't perform the same task on two consecutive days.
+ * Bottom-up tabulation approach.
+ * Time Complexity: O(n * 3)
+ * Space Complexity: O(n * 3)
+ */
 #include <iostream>
 
 using namespace std;

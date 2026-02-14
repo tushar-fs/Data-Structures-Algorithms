@@ -1,3 +1,10 @@
+/**
+ * Problem: Permutation in String (LC #567)
+ * Given two strings s1 and s2, return true if s2 contains a permutation of s1.
+ * Uses sliding window with frequency maps to check anagram substrings.
+ * Time Complexity: O(n2 * 26)
+ * Space Complexity: O(26) ≈ O(1)
+ */
 #include <iostream>
 #include <string>
 #include <unordered_map>

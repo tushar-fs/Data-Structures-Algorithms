@@ -1,12 +1,15 @@
+/**
+ * Problem: Search in Rotated Sorted Array (LC #33, #81)
+ * Given a sorted array that has been rotated at some pivot, search for a target value.
+ * Two variants: one for distinct values (LC #33), one with duplicates (LC #81).
+ * Time Complexity: O(log n) average, O(n) worst case with duplicates
+ * Space Complexity: O(1)
+ */
 #include <iostream>
 #include <vector>
 
 using namespace std;
 
-/*
- TC -> (logN)
- Sorted array with distinct values
-*/
 int searchInSortedRotatedArray(vector<int> &nums, int target)
 {
     int n = nums.size();

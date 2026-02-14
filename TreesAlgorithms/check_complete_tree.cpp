@@ -1,3 +1,11 @@
+/**
+ * Problem: Check Completeness of a Binary Tree (LC #958)
+ * Given the root of a binary tree, determine if it is a complete binary tree.
+ * A complete tree has all levels fully filled except possibly the last,
+ * which is filled from left to right.
+ * Time Complexity: O(n)
+ * Space Complexity: O(n)
+ */
 #include <iostream>
 #include "include/BinaryTreeNode.h"
 

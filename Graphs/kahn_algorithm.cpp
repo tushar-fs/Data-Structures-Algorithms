@@ -1,3 +1,10 @@
+/**
+ * Problem: Topological Sort — Kahn's Algorithm (BFS-based)
+ * Perform topological sorting using BFS with in-degree tracking.
+ * Also detects cycles — if not all nodes are processed, a cycle exists.
+ * Time Complexity: O(V + E)
+ * Space Complexity: O(V)
+ */
 #include <iostream>
 
 using namespace std;

@@ -1,3 +1,11 @@
+/**
+ * Problem: Find Duplicate Subtrees (LC #652)
+ * Given the root of a binary tree, return all duplicate subtrees. Two subtrees
+ * are duplicates if they have the same structure and node values.
+ * Uses serialization + hashmap to detect duplicates.
+ * Time Complexity: O(n²) — due to string hashing
+ * Space Complexity: O(n²)
+ */
 #include <iostream>
 #include "include/BinaryTreeNode.h";
 

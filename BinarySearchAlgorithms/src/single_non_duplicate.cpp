@@ -1,17 +1,16 @@
+/**
+ * Problem: Single Element in a Sorted Array (LC #540)
+ * Given a sorted array where every element appears exactly twice except for one,
+ * find the single element that appears only once.
+ *
+ * Example: nums = [1,1,2,3,3,4,4,8,8] → Output: 2
+ * Time Complexity: O(log n)
+ * Space Complexity: O(1)
+ */
 #include <iostream>
 #include <vector>
 
 using namespace std;
-
-/**
- * LEETCODE #540
- * You are given a sorted array consisting of only integers where every element
- * appears exactly twice, except for one element which appears exactly once.
- * Return the single element that appears only once.
- *
- * Input: nums = [1,1,2,3,3,4,4,8,8]
- * Output: 2
- */
 
 int singleNonDuplicate(vector<int> &nums)
 {

@@ -1,14 +1,14 @@
+/**
+ * Problem: Floor in a BST
+ * Find the greatest value in a BST that is smaller than or equal to the given key.
+ * Returns -1 if no such value exists.
+ * Time Complexity: O(h)
+ * Space Complexity: O(1)
+ */
 #include <iostream>
 #include "../include/BinaryTreeNode.h"
 
 using namespace std;
-
-/**
- * @brief Finds the greatest value in a BST that is smaller than or equal to the key.
- * @param root The root of the BST.
- * @param key The value to find the floor value for.
- * @return The floor value. Returns -1 if no such value exists.
- */
 
 int floorInBST(TreeNode *root, int key)
 {

@@ -1,3 +1,11 @@
+/**
+ * Problem: Minimum Path Sum (LC #64)
+ * Given an m x n grid filled with non-negative numbers, find a path from
+ * top-left to bottom-right that minimizes the sum of all numbers along the path.
+ * You can only move right or down.
+ * Time Complexity: O(n * m)
+ * Space Complexity: O(n * m)
+ */
 #include <iostream>
 
 using namespace std;

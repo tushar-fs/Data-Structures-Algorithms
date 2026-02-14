@@ -1,3 +1,10 @@
+/**
+ * Problem: Shortest Distance in Undirected Graph (Unit Weights)
+ * Find the shortest distance from a source node to all other nodes in an
+ * unweighted undirected graph using BFS/DFS relaxation.
+ * Time Complexity: O(V + E)
+ * Space Complexity: O(V)
+ */
 #include <iostream>
 
 using namespace std;

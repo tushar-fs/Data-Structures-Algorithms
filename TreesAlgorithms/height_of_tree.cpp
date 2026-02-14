@@ -1,3 +1,10 @@
+/**
+ * Problem: Maximum Depth / Height of Binary Tree (LC #104)
+ * Given the root of a binary tree, return its maximum depth (height).
+ * The height is the number of nodes along the longest path from root to leaf.
+ * Time Complexity: O(n)
+ * Space Complexity: O(h) — recursion stack
+ */
 #include <iostream>
 #include "include/BinaryTreeNode.h";
 

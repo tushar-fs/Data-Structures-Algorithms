@@ -1,3 +1,10 @@
+/**
+ * Problem: Count Complete Tree Nodes (LC #222)
+ * Given the root of a complete binary tree, return the number of nodes.
+ * Uses the property of complete trees to achieve better than O(n) time.
+ * Time Complexity: O(log²n)
+ * Space Complexity: O(log n) — recursion stack
+ */
 #include <iostream>
 #include "include/BinaryTreeNode.h"
 

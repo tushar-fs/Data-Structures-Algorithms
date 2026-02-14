@@ -1,8 +1,13 @@
+/**
+ * Problem: Coin Change — Minimum Coins (LC #322)
+ * Given coin denominations and a target amount, find the minimum number of
+ * coins needed to make the target. Return -1 if not possible.
+ * Time Complexity: O(n * target)
+ * Space Complexity: O(n * target)
+ */
 #include <iostream>
 
 using namespace std;
-
-// find minimum coins
 
 int findMinimumCoins(int ind, vector<int> &coins, int target)
 {

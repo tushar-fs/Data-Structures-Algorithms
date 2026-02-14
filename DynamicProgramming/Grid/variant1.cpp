@@ -1,7 +1,12 @@
+/**
+ * Problem: Unique Paths (LC #62)
+ * Count all paths from top-left to bottom-right of an m x n grid.
+ * You can only move right or down. Solved with memoization and tabulation.
+ * Time Complexity: O(n * m)
+ * Space Complexity: O(n * m) — can be optimized to O(m)
+ */
 #include <iostream>
 using namespace std;
-
-// Count all paths from top-left to bottom right
 
 // Memoization
 int countAllPaths(int n, int m, vector<vector<int>> &dp)

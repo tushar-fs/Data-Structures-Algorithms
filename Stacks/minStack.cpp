@@ -1,3 +1,10 @@
+/**
+ * Problem: Min Stack (LC #155)
+ * Design a stack that supports push, pop, top, and retrieving the minimum
+ * element in constant time. Uses encoding to store min info in a single stack.
+ * Time Complexity: O(1) for all operations
+ * Space Complexity: O(n)
+ */
 #include <stack>
 
 using namespace std;

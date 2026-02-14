@@ -1,3 +1,10 @@
+/**
+ * Problem: Topological Sort — DFS-based
+ * Given a Directed Acyclic Graph (DAG), produce a linear ordering of vertices
+ * such that for every edge (u, v), u comes before v. Uses DFS + stack.
+ * Time Complexity: O(V + E)
+ * Space Complexity: O(V)
+ */
 #include <iostream>
 
 using namespace std;

@@ -1,3 +1,10 @@
+/**
+ * Problem: Binary Tree Maximum Path Sum (LC #124)
+ * Find the maximum path sum in a binary tree. A path can start and end at any
+ * node and must follow parent-child connections.
+ * Time Complexity: O(n)
+ * Space Complexity: O(h) — recursion stack
+ */
 #include <iostream>
 #include "include/BinaryTreeNode.h"
 

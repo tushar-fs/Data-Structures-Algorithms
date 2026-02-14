@@ -1,3 +1,10 @@
+/**
+ * Problem: Top View of Binary Tree
+ * Given a binary tree, return the nodes visible when the tree is viewed from
+ * the top. Uses BFS with horizontal distance tracking.
+ * Time Complexity: O(n)
+ * Space Complexity: O(n)
+ */
 #include <iostream>
 #include "include/BinaryTreeNode.h";
 

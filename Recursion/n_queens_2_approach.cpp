@@ -1,3 +1,10 @@
+/**
+ * Problem: N-Queens (LC #51) — Approach 2 (Optimized with Hashing)
+ * Place N queens on an N×N chessboard such that no two queens attack each other.
+ * Uses boolean arrays for column and diagonal tracking instead of O(N) validation.
+ * Time Complexity: O(N!)
+ * Space Complexity: O(N)
+ */
 #include <iostream>
 #include <vector>
 

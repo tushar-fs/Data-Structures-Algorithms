@@ -1,3 +1,12 @@
+/**
+ * Problem: Find Nth Root of an Integer
+ * Given two integers num and n, find the nth root of num. If it doesn't exist
+ * as an integer, return -1. Uses binary search + binary exponentiation.
+ *
+ * Example: nthRoot(81, 4) → 3 (since 3^4 = 81)
+ * Time Complexity: O(log(num) * log(n))
+ * Space Complexity: O(1)
+ */
 #include <iostream>
 #include <vector>
 

@@ -1,8 +1,13 @@
+/**
+ * Problem: Unique Paths II — With Obstacles (LC #63)
+ * Count all paths from top-left to bottom-right with obstacles in the grid.
+ * Cells with -1 are blocked. You can only move right or down.
+ * Solved with memoization and tabulation.
+ * Time Complexity: O(n * m)
+ * Space Complexity: O(n * m)
+ */
 #include <iostream>
 using namespace std;
-
-// Count all paths from top-left to bottom right with obstacles
-// -1 -> obstacle, else 0
 
 // Memoization
 int countAllPaths(int n, int m, vector<vector<int>> &grid, vector<vector<int>> &dp)

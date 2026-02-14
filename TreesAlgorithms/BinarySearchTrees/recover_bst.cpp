@@ -1,3 +1,10 @@
+/**
+ * Problem: Recover Binary Search Tree (LC #99)
+ * Two nodes of a BST are swapped by mistake. Recover the tree without
+ * changing its structure. Uses inorder traversal to find the two swapped nodes.
+ * Time Complexity: O(n)
+ * Space Complexity: O(h) — recursion stack
+ */
 #include "../include/BinaryTreeNode.h";
 
 using namespace std;

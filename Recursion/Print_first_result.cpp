@@ -1,3 +1,10 @@
+/**
+ * Problem: Print First Subset with Sum K
+ * Given an array and a target sum K, find and print the first subset whose
+ * elements sum to K. Stops as soon as one valid subset is found.
+ * Time Complexity: O(2^n) worst case
+ * Space Complexity: O(n) — recursion depth
+ */
 #include <iostream>
 #include <vector>
 

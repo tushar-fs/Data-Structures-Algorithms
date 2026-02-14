@@ -1,3 +1,10 @@
+/**
+ * Problem: Left View of Binary Tree
+ * Given a binary tree, return the nodes visible when the tree is viewed from
+ * the left side. Implemented using both DFS and BFS approaches.
+ * Time Complexity: O(n)
+ * Space Complexity: O(h) for DFS, O(w) for BFS
+ */
 #include <iostream>
 #include <map>
 #include "include/BinaryTreeNode.h";

@@ -1,3 +1,10 @@
+/**
+ * Problem: Target Sum — Assign +/- Signs (LC #494)
+ * Given an array of integers, assign + or - to each element such that the
+ * total equals the target. Count all valid assignments.
+ * Time Complexity: O(n * totalSum)
+ * Space Complexity: O(n * totalSum)
+ */
 #include <iostream>
 
 using namespace std;

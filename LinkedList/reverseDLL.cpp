@@ -1,3 +1,9 @@
+/**
+ * Problem: Reverse Doubly Linked List
+ * Reverse a doubly linked list by swapping next and prev pointers.
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ */
 #include <iostream>
 #include "DoublyListNode.h"
 

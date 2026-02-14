@@ -1,3 +1,11 @@
+/**
+ * Problem: Number of Distinct Islands (LC #694)
+ * Given a 2D grid, count the number of distinct islands. Two islands are
+ * considered the same if they have the same shape (translation, not rotation).
+ * Uses DFS + relative coordinate hashing to identify unique shapes.
+ * Time Complexity: O(n * m)
+ * Space Complexity: O(n * m)
+ */
 #include <iostream>
 #include <set>
 

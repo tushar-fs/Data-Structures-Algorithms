@@ -1,14 +1,15 @@
+/**
+ * Problem: Find Peak Element in a 2D Matrix (LC #1901)
+ * Given a 2D array, find a peak element that is strictly greater than all of
+ * its adjacent neighbors (top, bottom, left, right). Elements outside the
+ * matrix are considered -1.
+ * Time Complexity: O(n * log m)
+ * Space Complexity: O(1)
+ */
 #include <iostream>
 #include <vector>
 
 using namespace std;
-
-/**
- *
- * Given a 2D Array, find peak (greater than element at top down left & right)
- * All outside elements are -1.
- * TC -> O(nlogm)
- */
 
 vector<int> findPeakGrid(vector<vector<int>> &mat)
 {

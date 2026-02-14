@@ -1,3 +1,10 @@
+/**
+ * Problem: Previous Smaller Element & Next Smaller Element
+ * For each element in the array, find the nearest smaller element to its left
+ * (PSE) and nearest smaller element to its right (NSE) using monotonic stack.
+ * Time Complexity: O(n)
+ * Space Complexity: O(n)
+ */
 #include <iostream>
 #include <vector>
 #include <stack>

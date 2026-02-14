@@ -1,3 +1,10 @@
+/**
+ * Problem: Combination Sum II (LC #40)
+ * Given a collection of integers (may contain duplicates) and a target, find all
+ * unique combinations that sum to the target. Each number may only be used once.
+ * Time Complexity: O(2^n)
+ * Space Complexity: O(n) — recursion depth
+ */
 #include <iostream>
 
 using namespace std;

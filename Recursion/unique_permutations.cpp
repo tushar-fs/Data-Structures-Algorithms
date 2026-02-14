@@ -1,3 +1,10 @@
+/**
+ * Problem: Permutations II — Unique Permutations (LC #47)
+ * Given a collection of numbers that might contain duplicates, return all
+ * possible unique permutations in any order.
+ * Time Complexity: O(n! * n)
+ * Space Complexity: O(n)
+ */
 #include <iostream>
 #include <unordered_set>
 

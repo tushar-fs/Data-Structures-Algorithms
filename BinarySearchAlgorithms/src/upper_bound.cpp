@@ -1,9 +1,12 @@
+/**
+ * Problem: Upper Bound
+ * Find the index of the first element in a sorted array that is
+ * strictly greater than the target value.
+ * Time Complexity: O(log n)
+ * Space Complexity: O(1)
+ */
 #include "include/upper_bound.h"
 #include <iostream>
-
-/*
- Upper bound -> Index of the first element greater than target
-*/
 int upperBound(vector<int> &nums, int target)
 {
     int n = nums.size();

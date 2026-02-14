@@ -1,4 +1,10 @@
-// Multisource shortest path algorithm
+/**
+ * Problem: Floyd-Warshall Algorithm — All-Pairs Shortest Path
+ * Find shortest distances between every pair of vertices in a weighted graph.
+ * Can handle negative weights (but not negative cycles).
+ * Time Complexity: O(V³)
+ * Space Complexity: O(V²)
+ */
 #include <iostream>
 #include <vector>
 

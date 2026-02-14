@@ -1,3 +1,10 @@
+/**
+ * Problem: Square Root of a Number with Decimal Precision
+ * Given an integer n and a desired precision, compute the square root of n
+ * up to the specified number of decimal places using binary search.
+ * Time Complexity: O(log n + precision * sqrt(n))
+ * Space Complexity: O(1)
+ */
 #include <iostream>
 #include <vector>
 

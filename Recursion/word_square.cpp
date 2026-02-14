@@ -1,3 +1,11 @@
+/**
+ * Problem: Word Squares (LC #425)
+ * Given a set of words, find all word squares you can build from them.
+ * A word square is a sequence of words where the kth row and kth column
+ * read the same string. Uses Trie for efficient prefix lookup + backtracking.
+ * Time Complexity: O(n * 26^L) where L = word length
+ * Space Complexity: O(n * L)
+ */
 #include <iostream>
 #include <memory>
 

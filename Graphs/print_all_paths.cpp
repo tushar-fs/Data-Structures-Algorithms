@@ -1,3 +1,10 @@
+/**
+ * Problem: Print All Paths from Source to Destination
+ * Given a directed graph, find and print all paths from a source node to a
+ * destination node using DFS backtracking.
+ * Time Complexity: O(V! * V) — exponential in worst case
+ * Space Complexity: O(V) — path + visited array
+ */
 #include <iostream>
 
 using namespace std;

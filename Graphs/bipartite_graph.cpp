@@ -1,3 +1,10 @@
+/**
+ * Problem: Is Graph Bipartite? (LC #785)
+ * Determine if a graph is bipartite using BFS 2-coloring. A graph is bipartite
+ * if its nodes can be divided into two sets with no edges within the same set.
+ * Time Complexity: O(V + E)
+ * Space Complexity: O(V)
+ */
 #include <iostream>
 
 using namespace std;

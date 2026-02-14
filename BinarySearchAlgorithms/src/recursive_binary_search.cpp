@@ -1,3 +1,10 @@
+/**
+ * Problem: Binary Search (Recursive)
+ * Given a sorted array and a target value, find the index of the target
+ * using recursive binary search.
+ * Time Complexity: O(log n)
+ * Space Complexity: O(log n) — recursion stack
+ */
 #include "include/recursive_binary_search.h"
 #include <iostream> // for debugging purpose
 

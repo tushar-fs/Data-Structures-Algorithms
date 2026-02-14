@@ -1,3 +1,10 @@
+/**
+ * Problem: Flatten a Multilevel Linked List (LC #430)
+ * Given a linked list where each node has a next pointer and a child pointer,
+ * flatten the list so all nodes appear in a single-level linked list.
+ * Time Complexity: O(n)
+ * Space Complexity: O(depth) — recursion stack
+ */
 #include <iostream>
 #include "ListNode.h"
 

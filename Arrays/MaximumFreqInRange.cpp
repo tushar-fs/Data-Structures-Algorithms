@@ -1,3 +1,10 @@
+/**
+ * Problem: Maximum Appearing Element in Ranges
+ * Given N ranges [left[i], right[i]], find the element that appears in the
+ * maximum number of ranges. Uses prefix sum / difference array technique.
+ * Time Complexity: O(n + maxRange)
+ * Space Complexity: O(maxRange)
+ */
 #include "mybits/stdc++.h"
 
 using namespace std;

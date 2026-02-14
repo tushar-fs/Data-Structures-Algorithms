@@ -1,3 +1,10 @@
+/**
+ * Problem: Strongly Connected Components — Kosaraju's Algorithm
+ * Find all strongly connected components (SCCs) in a directed graph.
+ * Uses two DFS passes: one to get finish order, another on the transposed graph.
+ * Time Complexity: O(V + E)
+ * Space Complexity: O(V + E)
+ */
 #include <iostream>
 
 using namespace std;

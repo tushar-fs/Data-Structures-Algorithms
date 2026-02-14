@@ -1,3 +1,10 @@
+/**
+ * Problem: Insert into a Binary Search Tree (LC #701)
+ * Given the root of a BST and a value to insert, place the new node in the
+ * correct position to maintain BST properties.
+ * Time Complexity: O(h)
+ * Space Complexity: O(1)
+ */
 #include <iostream>
 #include "../include/BinaryTreeNode.h"
 

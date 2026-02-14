@@ -1,3 +1,10 @@
+/**
+ * Problem: Longest Increasing Path in Binary Tree (Lineage Path)
+ * Find the longest path in a binary tree where each node's value is strictly
+ * less than its child's value (strictly increasing from parent to child).
+ * Time Complexity: O(n)
+ * Space Complexity: O(h) — recursion stack
+ */
 #include <iostream>
 #include "include/BinaryTreeNode.h"
 

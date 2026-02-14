@@ -1,3 +1,10 @@
+/**
+ * Problem: Longest Common Subsequence (LC #1143)
+ * Given two strings, find the length of their longest common subsequence.
+ * Includes both memoization and tabulation approaches.
+ * Time Complexity: O(n * m)
+ * Space Complexity: O(n * m)
+ */
 #include <iostream>
 
 using namespace std;

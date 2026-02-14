@@ -1,3 +1,10 @@
+/**
+ * Problem: Reverse Linked List (LC #206)
+ * Reverse a singly linked list. Implemented using both recursive and
+ * iterative approaches.
+ * Time Complexity: O(n)
+ * Space Complexity: O(n) recursive, O(1) iterative
+ */
 #include <iostream>
 #include "ListNode.h"
 

@@ -1,3 +1,10 @@
+/**
+ * Problem: Detect Cycle in Undirected Graph — DFS
+ * Detect if an undirected graph contains a cycle using DFS with parent tracking.
+ * Handles disconnected components.
+ * Time Complexity: O(V + E)
+ * Space Complexity: O(V)
+ */
 #include <iostream>
 
 using namespace std;

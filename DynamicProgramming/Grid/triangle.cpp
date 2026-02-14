@@ -1,8 +1,13 @@
+/**
+ * Problem: Triangle — Minimum Path Sum (LC #120)
+ * Given a triangular grid, find the minimum path sum from top to bottom.
+ * At each step you can move to an adjacent number on the row below.
+ * Time Complexity: O(n²)
+ * Space Complexity: O(n²)
+ */
 #include <iostream>
 
 using namespace std;
-
-// find minimum path sum in a triangular grid
 
 int getMinPathSum(int n, vector<vector<int>> &grid)
 {

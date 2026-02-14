@@ -1,11 +1,13 @@
+/**
+ * Problem: Binary Exponentiation (Fast Power)
+ * Compute a^x efficiently using the binary representation of the exponent.
+ * Squares the base and halves the exponent at each step.
+ * Time Complexity: O(log x)
+ * Space Complexity: O(1)
+ */
 #include <iostream>
 
 using namespace std;
-
-/**
- * Binary Exponentiation is an algorithm through which we can find
- * exponentiation of a number in log(n) time complexity.
- */
 
 void binaryExponentiation(int a, int x)
 {

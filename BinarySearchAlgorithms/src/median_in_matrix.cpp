@@ -1,3 +1,10 @@
+/**
+ * Problem: Median in a Row-wise Sorted Matrix
+ * Given an m x n matrix where each row is sorted in ascending order,
+ * find the median of the entire matrix using binary search on the value range.
+ * Time Complexity: O(n * log(m) * log(max - min))
+ * Space Complexity: O(1)
+ */
 #include <iostream>
 #include <vector>
 #include <algorithm>

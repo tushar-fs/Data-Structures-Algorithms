@@ -1,3 +1,10 @@
+/**
+ * Problem: Combination Sum (LC #39)
+ * Given an array of distinct integers and a target, find all unique combinations
+ * that sum to the target. The same number can be used unlimited times.
+ * Time Complexity: O(2^t) where t = target / min(candidates)
+ * Space Complexity: O(t) — recursion depth
+ */
 #include <iostream>
 
 using namespace std;

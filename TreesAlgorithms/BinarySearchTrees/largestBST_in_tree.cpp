@@ -1,3 +1,10 @@
+/**
+ * Problem: Largest BST Subtree (LC #333)
+ * Given a binary tree, find the largest subtree that is also a valid BST.
+ * Returns the number of nodes in the largest BST subtree.
+ * Time Complexity: O(n)
+ * Space Complexity: O(h) — recursion stack
+ */
 #include <vector>
 #include <climits>
 #include "include/BinaryTreeNode.h"

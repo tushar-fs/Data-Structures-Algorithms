@@ -1,3 +1,10 @@
+/**
+ * Problem: Subset Sum Problem
+ * Given an array of integers and a target sum, determine if there exists a
+ * subset whose elements sum to the target. Boolean DP approach.
+ * Time Complexity: O(n * target)
+ * Space Complexity: O(n * target)
+ */
 #include <iostream>
 
 using namespace std;

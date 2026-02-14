@@ -1,3 +1,10 @@
+/**
+ * Problem: Longest Consecutive Sequence in Binary Tree (LC #298)
+ * Find the longest path of consecutive values (each child = parent + 1)
+ * in a binary tree from parent to child.
+ * Time Complexity: O(n)
+ * Space Complexity: O(h) — recursion stack
+ */
 #include <iostream>
 #include "include/BinaryTreeNode.h"
 

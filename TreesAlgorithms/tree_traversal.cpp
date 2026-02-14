@@ -1,3 +1,10 @@
+/**
+ * Problem: Binary Tree DFS Traversals (Pre, In, Post) — Single Pass
+ * Perform all three DFS traversals (preorder, inorder, postorder) in a
+ * single recursive pass through the binary tree.
+ * Time Complexity: O(n)
+ * Space Complexity: O(n)
+ */
 #include <iostream>
 #include "include/BinaryTreeNode.h";
 

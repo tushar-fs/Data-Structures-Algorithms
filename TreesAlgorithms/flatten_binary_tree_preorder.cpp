@@ -1,3 +1,11 @@
+/**
+ * Problem: Flatten Binary Tree to Linked List — Preorder (LC #114)
+ * Given the root of a binary tree, flatten it into a linked list using
+ * preorder traversal. Each node's right pointer points to the next node
+ * and the left pointer is null.
+ * Time Complexity: O(n)
+ * Space Complexity: O(h) — recursion stack
+ */
 #include <iostream>
 #include "include/BinaryTreeNode.h"
 

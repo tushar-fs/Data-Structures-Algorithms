@@ -1,3 +1,10 @@
+/**
+ * Problem: Construct BST from Preorder Traversal (LC #1008)
+ * Given a preorder traversal array, construct the corresponding BST.
+ * Uses upper bound technique to efficiently determine subtree boundaries.
+ * Time Complexity: O(n)
+ * Space Complexity: O(h) — recursion stack
+ */
 #include "../include/BinaryTreeNode.h";
 
 using namespace std;

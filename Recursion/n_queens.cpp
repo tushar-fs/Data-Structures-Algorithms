@@ -1,3 +1,10 @@
+/**
+ * Problem: N-Queens (LC #51) — Approach 1
+ * Place N queens on an N×N chessboard such that no two queens attack each other.
+ * Uses backtracking with manual diagonal/column conflict checking.
+ * Time Complexity: O(N!)
+ * Space Complexity: O(N²)
+ */
 #include <iostream>
 #include <vector>
 

@@ -1,3 +1,10 @@
+/**
+ * Problem: Maximum Width of Binary Tree (LC #662)
+ * Given a binary tree, find the maximum width among all levels. The width of a
+ * level is the number of positions between the leftmost and rightmost non-null nodes.
+ * Time Complexity: O(n)
+ * Space Complexity: O(n)
+ */
 #include <iostream>
 #include "include/BinaryTreeNode.h";
 

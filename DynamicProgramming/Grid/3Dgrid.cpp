@@ -1,12 +1,14 @@
+/**
+ * Problem: Cherry Pickup II (LC #1463)
+ * Collect maximum cherries using two robots (Alice & Bob). Alice starts at
+ * (0, 0) and Bob starts at (0, col-1). Both move downward one row at a time,
+ * choosing from 3 columns (left, stay, right). 3D DP on (row, aliceCol, bobCol).
+ * Time Complexity: O(n * m²)
+ * Space Complexity: O(n * m²)
+ */
 #include <iostream>
 
 using namespace std;
-
-/*
- * You want to collect maximum fruits with help of Alice & Bob
- * Start point of Alice -> (0, 0)
- * Start point of Bob -> (0, col-1)
- */
 const int MAX = 71;
 int moves[] = {-1, 0, 1};
 int dp[MAX][MAX][MAX];

@@ -1,11 +1,15 @@
+/**
+ * Problem: Find First and Last Position of Element in Sorted Array (LC #34)
+ * Given an array of integers sorted in non-decreasing order, find the starting
+ * and ending position of a given target value.
+ * Time Complexity: O(2 * log n)
+ * Space Complexity: O(1)
+ */
 #include <iostream>
 #include <vector>
 
 using namespace std;
 
-/*
- TC -> (2*logn)
-*/
 vector<int> firstAndLastOccurrence(vector<int> &nums, int target)
 {
     int n = nums.size();

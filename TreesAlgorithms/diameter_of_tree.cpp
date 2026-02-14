@@ -1,3 +1,10 @@
+/**
+ * Problem: Diameter of Binary Tree (LC #543)
+ * Find the length of the longest path between any two nodes in a binary tree.
+ * The diameter may or may not pass through the root.
+ * Time Complexity: O(n)
+ * Space Complexity: O(h) — recursion stack
+ */
 #include <iostream>
 #include "include/BinaryTreeNode.h"
 

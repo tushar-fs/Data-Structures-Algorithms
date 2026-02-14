@@ -1,3 +1,10 @@
+/**
+ * Problem: Disjoint Set Union (Union-Find) with Rank Optimization
+ * Data structure to efficiently track connected components. Supports union
+ * and find operations with path compression and union by rank.
+ * Time Complexity: O(α(n)) ≈ O(1) amortized per operation
+ * Space Complexity: O(n)
+ */
 #include <iostream>
 
 using namespace std;

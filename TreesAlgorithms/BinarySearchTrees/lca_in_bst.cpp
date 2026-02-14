@@ -1,9 +1,11 @@
-#include "../include/BinaryTreeNode.h"
-
 /**
- * Find lowest common ancestor in a BST
- * TC -> O(Height)
+ * Problem: Lowest Common Ancestor of a BST (LC #235)
+ * Given a BST and two nodes p and q, find their lowest common ancestor.
+ * Leverages BST property to determine which subtree to search.
+ * Time Complexity: O(h)
+ * Space Complexity: O(h) — recursion stack
  */
+#include "../include/BinaryTreeNode.h"
 
 TreeNode *lowestCommonAncestor(TreeNode *root, TreeNode *p, TreeNode *q)
 {

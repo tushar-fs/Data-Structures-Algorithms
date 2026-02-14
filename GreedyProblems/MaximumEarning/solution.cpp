@@ -1,3 +1,11 @@
+/**
+ * Problem: Maximum Earning
+ * Given a binary string representing work days (1) and off days (0), a fixed
+ * daily pay, a bonus for consecutive work days, and K optional extra work days,
+ * maximize total earnings by strategically choosing which off days to work.
+ * Time Complexity: O(n * k)
+ * Space Complexity: O(n)
+ */
 #include <iostream>
 
 using namespace std;

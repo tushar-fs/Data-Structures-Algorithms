@@ -1,3 +1,10 @@
+/**
+ * Problem: Graph Representation — Adjacency List
+ * Build an undirected graph using adjacency list representation with a
+ * Graph class that supports adding edges and BFS traversal.
+ * Time Complexity: O(V + E) for BFS
+ * Space Complexity: O(V + E)
+ */
 #include <iostream>
 #include <list>
 

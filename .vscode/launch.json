@@ -1,0 +1,74 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Solution",
+      "request": "launch",
+      "mainClass": "Trie.Problems.LongestWordWithAllPrefixes.Solution",
+      "projectName": "Leetcode_9fe3bd7b"
+    },
+    {
+      "type": "java",
+      "name": "TreeCodec",
+      "request": "launch",
+      "mainClass": "TreesAlgorithms.TreeCodec",
+      "projectName": "Leetcode_9fe3bd7b"
+    },
+    {
+      "type": "java",
+      "name": "IteratorPattern",
+      "request": "launch",
+      "mainClass": "Java.IteratorPattern.IteratorPattern",
+      "projectName": "Leetcode_9fe3bd7b"
+    },
+    {
+      "type": "java",
+      "name": "AirTrafficControlMain",
+      "request": "launch",
+      "mainClass": "Java.mediatorPattern.AirTrafficControlMain",
+      "projectName": "Leetcode_9fe3bd7b"
+    },
+    {
+      "type": "java",
+      "name": "UIToolkit",
+      "request": "launch",
+      "mainClass": "Java.abstractFactoryPattern.UIToolkit",
+      "projectName": "Leetcode_9fe3bd7b"
+    },
+    {
+      "type": "java",
+      "name": "Restaurant",
+      "request": "launch",
+      "mainClass": "Java.Restaurant.Restaurant",
+      "projectName": "Leetcode_9fe3bd7b"
+    },
+    {
+      "type": "java",
+      "name": "FactoryPatternMain",
+      "request": "launch",
+      "mainClass": "Java.factoryPattern.FactoryPatternMain",
+      "projectName": "Leetcode_9fe3bd7b"
+    },
+    {
+      "type": "java",
+      "name": "Practice",
+      "request": "launch",
+      "mainClass": "Java.Practice",
+      "projectName": "Leetcode_9fe3bd7b"
+    },
+    {
+      "name": "C/C++: g++ build and debug active file",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb",
+      "preLaunchTask": "C/C++: g++ build active file"
+    }
+  ],
+  "version": "2.0.0"
+}

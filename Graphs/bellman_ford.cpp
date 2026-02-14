@@ -1,3 +1,10 @@
+/**
+ * Problem: Bellman-Ford Shortest Path Algorithm
+ * Find shortest paths from a single source in a graph that may contain
+ * negative weight edges. Can also detect negative weight cycles.
+ * Time Complexity: O(V * E)
+ * Space Complexity: O(V)
+ */
 #include <iostream>
 
 using namespace std;

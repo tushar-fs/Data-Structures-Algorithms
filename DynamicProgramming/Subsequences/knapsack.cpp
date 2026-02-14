@@ -1,3 +1,10 @@
+/**
+ * Problem: 0/1 Knapsack
+ * Given items with weights and values, and a bag with a weight capacity,
+ * find the maximum value that can be carried. Each item can be picked at most once.
+ * Time Complexity: O(n * W)
+ * Space Complexity: O(n * W)
+ */
 #include <iostream>
 
 using namespace std;

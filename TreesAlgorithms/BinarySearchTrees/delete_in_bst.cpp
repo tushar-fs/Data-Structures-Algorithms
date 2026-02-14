@@ -1,3 +1,10 @@
+/**
+ * Problem: Delete Node in a BST (LC #450)
+ * Given a root of BST and a key, delete the node with the given key.
+ * Handles three cases: leaf node, one child, and two children (inorder successor).
+ * Time Complexity: O(h)
+ * Space Complexity: O(h) — recursion stack
+ */
 #include "../include/BinaryTreeNode.h"
 
 TreeNode *deleteNode(TreeNode *root, int key)
