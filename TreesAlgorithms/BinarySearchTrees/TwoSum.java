@@ -2,7 +2,10 @@ package TreesAlgorithms.BinarySearchTrees;
 
 public class TwoSum {
     public Boolean checkTwoSum(TreeNode root, int target) {
-
+        BSTBidirectionalIterator bstIterator = new BSTBidirectionalIterator(root);
+        while(bstIterator.hasNext() && bstIterator.hasPrev() ) {
+            
+        }
         return false;
     }
 
@@ -19,7 +22,6 @@ public class TwoSum {
 
     public void main(String[] args) {
         TreeNode root = createStandardTree();
-        BSTBidirectionalIterator bstIterator = new BSTBidirectionalIterator(root);
         System.out.println(checkTwoSum(root, 9));
     }    
 }
